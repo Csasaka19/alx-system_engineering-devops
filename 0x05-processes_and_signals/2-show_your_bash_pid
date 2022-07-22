@@ -2,4 +2,4 @@
 # prints pid of bash
 # shellcheck disable=SC2009
 
-grep -auxf | grep "bash"
+ps -auxf | grep "bash"
