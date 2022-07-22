@@ -1,0 +1,4 @@
+#!/bin/env bash
+# kills a process in another terminal forcibly
+
+pkill -KILL -f "7-highlander"

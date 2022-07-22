@@ -1,0 +1,17 @@
+#!/bin/env bash
+# termination signal is caught and ignored
+# a message is printed instead
+# loop has to be terminated by another file in a different terminal
+
+msg()
+{
+	echo "I am invincible!!!"
+}
+trap "msg" SIGTERM
+
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+
+done

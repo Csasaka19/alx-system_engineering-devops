@@ -1,0 +1,5 @@
+#!/bin/env bash
+# prints pid of any bash file
+# that is running
+
+pgrep -l bash

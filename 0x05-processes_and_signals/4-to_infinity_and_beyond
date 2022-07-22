@@ -1,0 +1,10 @@
+#!/bin/env bash
+# prints to infinity and beyond infinitely
+# stopped by CTRL+c the kill cmd
+
+while true
+
+do
+    echo "To infinity and beyond"
+    sleep 2
+done

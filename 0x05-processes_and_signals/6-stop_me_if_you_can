@@ -1,0 +1,5 @@
+#!/bin/env bash
+# kills a process in another terminal
+# using pkill
+
+pkill -f "4-to_infinity_and_beyond"
