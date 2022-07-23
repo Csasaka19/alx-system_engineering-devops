@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # prints to infinity and beyond infinitely
 # stopped by CTRL+c the kill cmd
 

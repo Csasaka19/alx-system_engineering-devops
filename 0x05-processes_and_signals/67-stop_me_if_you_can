@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # kills a process in another terminal
 # 7-highlander
 

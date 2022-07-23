@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # termination signal is caught and ignored
 # a message is printed instead
 # loop has to be terminated by another file in a different terminal
