@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Install nginx and use it
 # can’t use systemctl for restarting nginx
 
