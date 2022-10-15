@@ -2,8 +2,9 @@
 # Install nginx and use it
 # can’t use systemctl for restarting nginx
 
-apt-get -y install nginx
+sudo apt-get -y update
+sudo apt-get -y install nginx
 service nginx start
 ufw allow 'Nginx HTTP'
-echo "Holberton School\n" | sudo tee /var/www/html/index.nginx-debian.html
-service nginx restart
+echo "Holberton School\n" | sudo tee /usr/share/nginx/html/index.html
+sudo service nginx restart
