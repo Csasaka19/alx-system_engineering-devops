@@ -1,0 +1,6 @@
+sudo ufw allow from 54.174.91.87 to any port 3306
+sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
+# bind-address  = 3.84.158.60
+server-id             = 1
+log_bin               = /var/log/mysql/mysql-bin.log
+binlog_do_db          = tyrell_corp
