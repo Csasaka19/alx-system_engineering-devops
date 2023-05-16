@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Script displays current session user
+# It only accepts one argument
+if [ $# -ne 1 ]; then
+    whoami
+else
+arg=$1
+echo "$arg"
+fi
