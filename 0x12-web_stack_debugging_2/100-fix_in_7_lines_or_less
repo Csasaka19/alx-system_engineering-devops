@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# fix of the previous task in 7 lines
+chmod 644 /etc/nginx/nginx.conf
+sudo sed -Ei 's/#user www-data/user nginx' /etc/nginx/nginx.conf
+sudo sed -i 's/80 default_server/8080 default_server/' /etc/nginx/sites-available/default
+pkill apache2
+sudo -u nginx restart service nginx restart
