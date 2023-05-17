@@ -1,4 +1,5 @@
 CREATE USER 'replica_user'@'%' IDENTIFIED BY 'replica12345';
-GRANT REPLICATION CLIENT ON *.* TO `replica_user`@`%`;
+GRANT REPLICATION SLAVE ON *.* TO `replica_user`@`%`;
 GRANT SELECT ON mysql.user TO `holberton_user`@`localhost`;
 SHOW GRANTS FOR 'holberton_user'@'localhost';
+SHOW GRANTS FOR `replica_user`@`%`;
